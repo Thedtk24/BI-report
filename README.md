@@ -39,8 +39,8 @@ project-root/
 1. **Cloner le dépôt**
 
 ```bash
-git clone https://github.com/votre-utilisateur/rh-dashboard.git
-cd rh-dashboard
+git clone [https://github.com/votre-utilisateur/rh-dashboard.git](https://github.com/Thedtk24/BI-report.git)
+cd dashboard
 ```
 
 2. **Créer un environnement virtuel**
