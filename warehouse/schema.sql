@@ -43,4 +43,3 @@ CREATE TABLE IF NOT EXISTS fact_formation (
     FOREIGN KEY (id_employe) REFERENCES dim_employe(id_employe),
     FOREIGN KEY (date_formation) REFERENCES dim_temps(date)
 );
-
