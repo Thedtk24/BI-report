@@ -19,17 +19,17 @@ Ce projet est une application Dash interactive permettant de visualiser, filtrer
 
 ```
 project-root/
-├── data/                  # Données sources CSV
+├── data/              
 ├── etl/
-│   ├── extract.py         # Extraction & nettoyage des données
-│   ├── transform.py       # Transformation des données (formatage, enrichissement)
-│   └── load.py            # Chargement vers base SQLite
+│   ├── extract.py         
+│   ├── transform.py       
+│   └── load.py           
 ├── warehouse/
-│   ├── reporting.db       # Base de données SQLite
-│   └── schema.sql         # Schéma SQL de la base (dimensions & faits)
+│   ├── reporting.db     
+│   └── schema.sql        
 ├── dashboard/
-│   └── app.py             # Application Dash (vizualisation)
-└── README.md              # Documentation du projet
+│   └── app.py             
+└── README.md            
 ```
 
 ---
@@ -43,11 +43,11 @@ git clone https://github.com/Thedtk24/BI-report.git
 cd dashboard
 ```
 
-2. **Créer un environnement virtuel**
+2. **Créer un env virtuel**
 
 ```bash
 python -m venv env
-source env/bin/activate  # Windows: env\Scripts\activate
+source env/bin/activate  
 ```
 
 3. **Installer les dépendances**
@@ -72,14 +72,6 @@ python dashboard/app.py
 
 ---
 
-## Aperçu
-
-* Graphiques clairs & responsifs (Plotly)
-* Interface utilisateur fluide avec Dash
-* Organisation en cartes KPI et visualisations filtrables
-
----
-
 ## Technologies utilisées
 
 * **Python**
@@ -100,4 +92,4 @@ python dashboard/app.py
 
 ## Contributeur
 
-* Thed Arthur – Software Engineer
+* Thed Arthur (HeisDeht) | Software Engineer
